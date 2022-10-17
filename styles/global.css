@@ -1,0 +1,13 @@
+:root {
+  --COLOR_YELLOW: #ffee00;
+  --COLOR_BLUE: #0400ff;
+  --COLOR_BLACK: #000;
+}
+
+body {
+  margin: 0;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  display: flex;
+  min-height: 100vh;
+}
