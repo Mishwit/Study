@@ -20,12 +20,18 @@
     <script>
       "use strict";
 
-      let year = prompt("Какое «официальное» название JavaScript?", "");
+      let message;
 
-      if (year == "ECMAScript") {
-        alert("Верно!");
+      message = (Сотрудник)? "Привет!"
+
+      if (login == "Сотрудник") {
+        message = "Привет";
+      } else if (login == "Директор") {
+        message = "Здравствуйте";
+      } else if (login == "") {
+        message = "Нет логина";
       } else {
-        alert("Не знаете? ECMAScript!"); // любое значение, кроме 2015
+        message = "";
       }
     </script>
   </body>
